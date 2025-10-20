@@ -4,8 +4,8 @@
 It was accepted to **ICDAR 2025 Workshop on Document Analysis of Low-resource Languages**, held September 16–21, 2025, in Wuhan, China 🇨🇳.
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Paper](https://img.shields.io/badge/Paper-ICDAR%202025%20DALL-orange)](https://github.com/linty5/ClapperText) <!-- Update with actual PDF link if hosted -->
-[![Dataset](https://img.shields.io/badge/Dataset-Coming%20Soon-lightgrey)](#)
+[![Paper](https://img.shields.io/badge/Paper-arXiv%3A2510.15557-red)](https://arxiv.org/abs/2510.15557)
+[![Dataset](https://img.shields.io/badge/Dataset-Zenodo-orange)](https://zenodo.org/records/17366964)
 
 ---
 
@@ -25,7 +25,7 @@ ClapperText contains over 94,000 annotated word instances from 127 historical vi
 
 ## 📦 Contents (Coming Soon)
 
-- 🔤 Dataset download instructions
+- 📁 **Zenodo (v1.0.0 release):** [DOI 10.5281/zenodo.17366963](https://zenodo.org/records/17366964)  
 - 🧪 Evaluation scripts and baseline models
 - 📊 Benchmark results (recognition and detection)
 - 🛠️ Annotation format documentation
@@ -34,10 +34,24 @@ ClapperText contains over 94,000 annotated word instances from 127 historical vi
 
 ## 📄 Citation
 
-Coming soon. This work was accepted to:
+This work was accepted to:
 
 > **ICDAR 2025 Workshop on Document Analysis of Low-resource Languages**  
 > September 16–21, 2025, Wuhan, Hubei, China
+
+If you use this dataset or paper, please cite:
+
+```bibtex
+@misc{lin2025clappertext,
+      title={ClapperText: A Benchmark for Text Recognition in Low-Resource Archival Documents}, 
+      author={Tingyu Lin and Marco Peer and Florian Kleber and Robert Sablatnig},
+      year={2025},
+      eprint={2510.15557},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2510.15557}, 
+}
+```
 
 ---
 

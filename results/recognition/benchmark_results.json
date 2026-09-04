@@ -1,0 +1,1254 @@
+{
+  "crnn_mini-vgg_5e_mj": {
+    "finetune": {
+      "deployment": {
+        "channels": 1,
+        "fps": 9929.44,
+        "input_h": 32,
+        "input_w": 160,
+        "latency_ms": 0.1,
+        "mem_mb": 330.2
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.10178075523271898,
+          "word_acc_ignore_case": 0.382153379898505,
+          "word_acc_ignore_case_symbol": 0.46343032108489446
+        },
+        "non_handwritten": {
+          "word_acc": 0.13243117587020026,
+          "word_acc_ignore_case": 0.5553072467352063,
+          "word_acc_ignore_case_symbol": 0.7455609384842655
+        },
+        "overall": {
+          "word_acc": 0.11676235287020446,
+          "word_acc_ignore_case": 0.44961888493693963,
+          "word_acc_ignore_case_symbol": 0.5461781425587121
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.10134799096346908,
+          "word_acc_ignore_case": 0.37792862709737857,
+          "word_acc_ignore_case_symbol": 0.45840906223612
+        },
+        "non_handwritten": {
+          "word_acc": 0.1301190102127972,
+          "word_acc_ignore_case": 0.5341464954160621,
+          "word_acc_ignore_case_symbol": 0.7061578006673082
+        },
+        "overall": {
+          "word_acc": 0.11640840224524092,
+          "word_acc_ignore_case": 0.4432638118978205,
+          "word_acc_ignore_case_symbol": 0.5380379583586727
+        }
+      },
+      "mode": "finetune",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.011111111111111112,
+          "word_acc_ignore_case": 0.039095928226363014,
+          "word_acc_ignore_case_symbol": 0.039095928226363014
+        },
+        "non_handwritten": {
+          "word_acc": 0.09444444444444444,
+          "word_acc_ignore_case": 0.09444444444444444,
+          "word_acc_ignore_case_symbol": 0.10726495726495726
+        },
+        "overall": {
+          "word_acc": 0.04516129032258065,
+          "word_acc_ignore_case": 0.06315152989667115,
+          "word_acc_ignore_case_symbol": 0.06864603539117664
+        }
+      }
+    },
+    "zeroshot": {
+      "deployment": {
+        "channels": 1,
+        "fps": 10131.95,
+        "input_h": 32,
+        "input_w": 160,
+        "latency_ms": 0.1,
+        "mem_mb": 330.2
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.017932768842570692,
+          "word_acc_ignore_case": 0.21905998061240203,
+          "word_acc_ignore_case_symbol": 0.2547916344530133
+        },
+        "non_handwritten": {
+          "word_acc": 0.0642038113160511,
+          "word_acc_ignore_case": 0.34360868603483846,
+          "word_acc_ignore_case_symbol": 0.3983809090119508
+        },
+        "overall": {
+          "word_acc": 0.0375100282312067,
+          "word_acc_ignore_case": 0.2723109723175148,
+          "word_acc_ignore_case_symbol": 0.3098534681638247
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.01790165272411766,
+          "word_acc_ignore_case": 0.2159935906086004,
+          "word_acc_ignore_case_symbol": 0.25167552217281025
+        },
+        "non_handwritten": {
+          "word_acc": 0.06237106837800853,
+          "word_acc_ignore_case": 0.33137098742001736,
+          "word_acc_ignore_case_symbol": 0.38368012773869253
+        },
+        "overall": {
+          "word_acc": 0.03735819074706917,
+          "word_acc_ignore_case": 0.26844684916083406,
+          "word_acc_ignore_case_symbol": 0.30581889687560654
+        }
+      },
+      "mode": "zeroshot",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.0,
+          "word_acc_ignore_case": 0.11363008971704623,
+          "word_acc_ignore_case_symbol": 0.11363008971704623
+        },
+        "non_handwritten": {
+          "word_acc": 0.0,
+          "word_acc_ignore_case": 0.03935185185185185,
+          "word_acc_ignore_case_symbol": 0.03935185185185185
+        },
+        "overall": {
+          "word_acc": 0.0,
+          "word_acc_ignore_case": 0.08991299418318051,
+          "word_acc_ignore_case_symbol": 0.08991299418318051
+        }
+      }
+    }
+  },
+  "master_resnet31_12e_st_mj_sa": {
+    "finetune": {
+      "deployment": {
+        "fps": 216.08,
+        "gflops": 1905.78,
+        "input_h": 48,
+        "input_w": 160,
+        "latency_ms": 4.63,
+        "mem_mb": 1508.4,
+        "params": 46.33
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.5841550513878008,
+          "word_acc_ignore_case": 0.62206395377936,
+          "word_acc_ignore_case_symbol": 0.6725870384505842
+        },
+        "non_handwritten": {
+          "word_acc": 0.7629955628479517,
+          "word_acc_ignore_case": 0.7683291542791041,
+          "word_acc_ignore_case_symbol": 0.8154163562273318
+        },
+        "overall": {
+          "word_acc": 0.6470196090590866,
+          "word_acc_ignore_case": 0.6766806009782133,
+          "word_acc_ignore_case_symbol": 0.72481988870465
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.5789237836347871,
+          "word_acc_ignore_case": 0.6147915357156323,
+          "word_acc_ignore_case_symbol": 0.6649488849054022
+        },
+        "non_handwritten": {
+          "word_acc": 0.7176956939321487,
+          "word_acc_ignore_case": 0.7228078128537915,
+          "word_acc_ignore_case_symbol": 0.7675701872424053
+        },
+        "overall": {
+          "word_acc": 0.6386248774449298,
+          "word_acc_ignore_case": 0.6671480531269258,
+          "word_acc_ignore_case_symbol": 0.7146111255642829
+        }
+      },
+      "mode": "finetune",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.19796411318150448,
+          "word_acc_ignore_case": 0.19796411318150448,
+          "word_acc_ignore_case_symbol": 0.19796411318150448
+        },
+        "non_handwritten": {
+          "word_acc": 0.08333333333333333,
+          "word_acc_ignore_case": 0.08333333333333333,
+          "word_acc_ignore_case_symbol": 0.08333333333333333
+        },
+        "overall": {
+          "word_acc": 0.16297692990239573,
+          "word_acc_ignore_case": 0.16297692990239573,
+          "word_acc_ignore_case_symbol": 0.16297692990239573
+        }
+      }
+    },
+    "zeroshot": {
+      "deployment": {
+        "fps": 217.3,
+        "gflops": 1905.78,
+        "input_h": 48,
+        "input_w": 160,
+        "latency_ms": 4.6,
+        "mem_mb": 1508.4,
+        "params": 46.33
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.4226938637178636,
+          "word_acc_ignore_case": 0.5534811444254527,
+          "word_acc_ignore_case_symbol": 0.6253345813062188
+        },
+        "non_handwritten": {
+          "word_acc": 0.5703675057472569,
+          "word_acc_ignore_case": 0.7021760435490064,
+          "word_acc_ignore_case_symbol": 0.7520166735903118
+        },
+        "overall": {
+          "word_acc": 0.48363623446865733,
+          "word_acc_ignore_case": 0.6125469300365546,
+          "word_acc_ignore_case_symbol": 0.6797541410338129
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.416434461777292,
+          "word_acc_ignore_case": 0.5453457822348958,
+          "word_acc_ignore_case_symbol": 0.6169618794924432
+        },
+        "non_handwritten": {
+          "word_acc": 0.568264883757123,
+          "word_acc_ignore_case": 0.6917291158990374,
+          "word_acc_ignore_case_symbol": 0.737969987931045
+        },
+        "overall": {
+          "word_acc": 0.47748031753792314,
+          "word_acc_ignore_case": 0.603275375903076,
+          "word_acc_ignore_case_symbol": 0.669700383199505
+        }
+      },
+      "mode": "zeroshot",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.16138716356107663,
+          "word_acc_ignore_case": 0.29948240165631473,
+          "word_acc_ignore_case_symbol": 0.29948240165631473
+        },
+        "non_handwritten": {
+          "word_acc": 0.23148148148148148,
+          "word_acc_ignore_case": 0.23148148148148148,
+          "word_acc_ignore_case_symbol": 0.23148148148148148
+        },
+        "overall": {
+          "word_acc": 0.20295524006704133,
+          "word_acc_ignore_case": 0.29173075027112294,
+          "word_acc_ignore_case_symbol": 0.29173075027112294
+        }
+      }
+    }
+  },
+  "nrtr_modality-transform_6e_st_mj_250702": {
+    "finetune": {
+      "deployment": {
+        "channels": 3,
+        "input_h": 32,
+        "input_w": 160
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.6163713616888917,
+          "word_acc_ignore_case": 0.6474433303370046,
+          "word_acc_ignore_case_symbol": 0.7068204786031321
+        },
+        "non_handwritten": {
+          "word_acc": 0.777333361423067,
+          "word_acc_ignore_case": 0.7837910275148794,
+          "word_acc_ignore_case_symbol": 0.8408402288174434
+        },
+        "overall": {
+          "word_acc": 0.6669717524109359,
+          "word_acc_ignore_case": 0.6915042769266849,
+          "word_acc_ignore_case_symbol": 0.7515998699118291
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.6094898379238926,
+          "word_acc_ignore_case": 0.6398478694310484,
+          "word_acc_ignore_case_symbol": 0.6990756702088928
+        },
+        "non_handwritten": {
+          "word_acc": 0.7469884430550863,
+          "word_acc_ignore_case": 0.7529616673616439,
+          "word_acc_ignore_case_symbol": 0.8072769369170454
+        },
+        "overall": {
+          "word_acc": 0.6581741248723033,
+          "word_acc_ignore_case": 0.6821244708533832,
+          "word_acc_ignore_case_symbol": 0.7417186490870684
+        }
+      },
+      "mode": "finetune",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.27301587301587305,
+          "word_acc_ignore_case": 0.27301587301587305,
+          "word_acc_ignore_case_symbol": 0.27301587301587305
+        },
+        "non_handwritten": {
+          "word_acc": 0.29954212454212453,
+          "word_acc_ignore_case": 0.29954212454212453,
+          "word_acc_ignore_case_symbol": 0.29954212454212453
+        },
+        "overall": {
+          "word_acc": 0.3014276430175048,
+          "word_acc_ignore_case": 0.3014276430175048,
+          "word_acc_ignore_case_symbol": 0.3014276430175048
+        }
+      }
+    },
+    "zeroshot": {
+      "deployment": {
+        "channels": 3,
+        "input_h": 32,
+        "input_w": 160
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.4054344601649143,
+          "word_acc_ignore_case": 0.546972358974933,
+          "word_acc_ignore_case_symbol": 0.6334513052322793
+        },
+        "non_handwritten": {
+          "word_acc": 0.5465947729532804,
+          "word_acc_ignore_case": 0.7237376067687363,
+          "word_acc_ignore_case_symbol": 0.8103795624283152
+        },
+        "overall": {
+          "word_acc": 0.4626320669708098,
+          "word_acc_ignore_case": 0.6094397034770357,
+          "word_acc_ignore_case_symbol": 0.6956968219721158
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.40043918165682874,
+          "word_acc_ignore_case": 0.5404250339966983,
+          "word_acc_ignore_case_symbol": 0.625808702171893
+        },
+        "non_handwritten": {
+          "word_acc": 0.5385955833766085,
+          "word_acc_ignore_case": 0.7075546340614421,
+          "word_acc_ignore_case_symbol": 0.7906257934521306
+        },
+        "overall": {
+          "word_acc": 0.4573235286823087,
+          "word_acc_ignore_case": 0.6017790113949452,
+          "word_acc_ignore_case_symbol": 0.6864606966219883
+        }
+      },
+      "mode": "zeroshot",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.10093167701863354,
+          "word_acc_ignore_case": 0.10093167701863354,
+          "word_acc_ignore_case_symbol": 0.10093167701863354
+        },
+        "non_handwritten": {
+          "word_acc": 0.26994301994301995,
+          "word_acc_ignore_case": 0.3651811151811151,
+          "word_acc_ignore_case_symbol": 0.39082214082214084
+        },
+        "overall": {
+          "word_acc": 0.18057451520184437,
+          "word_acc_ignore_case": 0.22139084173245663,
+          "word_acc_ignore_case_symbol": 0.2323798527214676
+        }
+      }
+    }
+  },
+  "nrtr_resnet31-1by16-1by8_6e_st_mj_250702": {
+    "finetune": {
+      "deployment": {
+        "channels": 3,
+        "input_h": 32,
+        "input_w": 160
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.634902711735745,
+          "word_acc_ignore_case": 0.6685414253990254,
+          "word_acc_ignore_case_symbol": 0.726186688382529
+        },
+        "non_handwritten": {
+          "word_acc": 0.7946578219314169,
+          "word_acc_ignore_case": 0.7991700170533682,
+          "word_acc_ignore_case_symbol": 0.8395511900024095
+        },
+        "overall": {
+          "word_acc": 0.6927157042924457,
+          "word_acc_ignore_case": 0.7188279511799923,
+          "word_acc_ignore_case_symbol": 0.7724149400698612
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.6267541100277484,
+          "word_acc_ignore_case": 0.660323052192686,
+          "word_acc_ignore_case_symbol": 0.7161004775625905
+        },
+        "non_handwritten": {
+          "word_acc": 0.7763402301372876,
+          "word_acc_ignore_case": 0.7804143042113617,
+          "word_acc_ignore_case_symbol": 0.8187550335112006
+        },
+        "overall": {
+          "word_acc": 0.6834588321293347,
+          "word_acc_ignore_case": 0.7093321018180342,
+          "word_acc_ignore_case_symbol": 0.760997726239848
+        }
+      },
+      "mode": "finetune",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.21283643892339546,
+          "word_acc_ignore_case": 0.21283643892339546,
+          "word_acc_ignore_case_symbol": 0.22077294685990337
+        },
+        "non_handwritten": {
+          "word_acc": 0.3846153846153846,
+          "word_acc_ignore_case": 0.3846153846153846,
+          "word_acc_ignore_case_symbol": 0.3846153846153846
+        },
+        "overall": {
+          "word_acc": 0.3016585898573476,
+          "word_acc_ignore_case": 0.3016585898573476,
+          "word_acc_ignore_case_symbol": 0.30676063067367415
+        }
+      }
+    },
+    "zeroshot": {
+      "deployment": {
+        "channels": 3,
+        "input_h": 32,
+        "input_w": 160
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.4123153485610468,
+          "word_acc_ignore_case": 0.5295941037474718,
+          "word_acc_ignore_case_symbol": 0.5931167881670948
+        },
+        "non_handwritten": {
+          "word_acc": 0.5919986399621104,
+          "word_acc_ignore_case": 0.7281812648699825,
+          "word_acc_ignore_case_symbol": 0.7804019293267843
+        },
+        "overall": {
+          "word_acc": 0.47702155452746614,
+          "word_acc_ignore_case": 0.5962787787109319,
+          "word_acc_ignore_case_symbol": 0.655595115414885
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.4046765567999366,
+          "word_acc_ignore_case": 0.521419411243834,
+          "word_acc_ignore_case_symbol": 0.5849869628836821
+        },
+        "non_handwritten": {
+          "word_acc": 0.5732229650430162,
+          "word_acc_ignore_case": 0.7011403909551666,
+          "word_acc_ignore_case_symbol": 0.7503017576565721
+        },
+        "overall": {
+          "word_acc": 0.4696447872826242,
+          "word_acc_ignore_case": 0.5869447262293139,
+          "word_acc_ignore_case_symbol": 0.6458180512465053
+        }
+      },
+      "mode": "zeroshot",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.1271911663216011,
+          "word_acc_ignore_case": 0.14623878536922016,
+          "word_acc_ignore_case_symbol": 0.25734989648033124
+        },
+        "non_handwritten": {
+          "word_acc": 0.22496947496947498,
+          "word_acc_ignore_case": 0.22913614163614163,
+          "word_acc_ignore_case_symbol": 0.22913614163614163
+        },
+        "overall": {
+          "word_acc": 0.17818123905080427,
+          "word_acc_ignore_case": 0.19221185129570223,
+          "word_acc_ignore_case_symbol": 0.2636404227242736
+        }
+      }
+    }
+  },
+  "nrtr_resnet31-1by8-1by4_6e_st_mj_250702": {
+    "finetune": {
+      "deployment": {
+        "channels": 3,
+        "input_h": 32,
+        "input_w": 160
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.6042779210013834,
+          "word_acc_ignore_case": 0.6381389503727246,
+          "word_acc_ignore_case_symbol": 0.6878273860620793
+        },
+        "non_handwritten": {
+          "word_acc": 0.7479167714108763,
+          "word_acc_ignore_case": 0.7527092758249692,
+          "word_acc_ignore_case_symbol": 0.8005198061188253
+        },
+        "overall": {
+          "word_acc": 0.6494042869933166,
+          "word_acc_ignore_case": 0.675577687320028,
+          "word_acc_ignore_case_symbol": 0.7265572674069961
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.5975045558488045,
+          "word_acc_ignore_case": 0.6313124372058052,
+          "word_acc_ignore_case_symbol": 0.6804082221834532
+        },
+        "non_handwritten": {
+          "word_acc": 0.7077960575669954,
+          "word_acc_ignore_case": 0.7124744547331338,
+          "word_acc_ignore_case_symbol": 0.758215044207446
+        },
+        "overall": {
+          "word_acc": 0.6414033399640889,
+          "word_acc_ignore_case": 0.6674300039913408,
+          "word_acc_ignore_case_symbol": 0.7175886926794544
+        }
+      },
+      "mode": "finetune",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.3412180814354728,
+          "word_acc_ignore_case": 0.3412180814354728,
+          "word_acc_ignore_case_symbol": 0.38685300207039336
+        },
+        "non_handwritten": {
+          "word_acc": 0.2845695970695971,
+          "word_acc_ignore_case": 0.2845695970695971,
+          "word_acc_ignore_case_symbol": 0.2845695970695971
+        },
+        "overall": {
+          "word_acc": 0.341312879666917,
+          "word_acc_ignore_case": 0.341312879666917,
+          "word_acc_ignore_case_symbol": 0.3706496143607945
+        }
+      }
+    },
+    "zeroshot": {
+      "deployment": {
+        "channels": 3,
+        "input_h": 32,
+        "input_w": 160
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.40634840642165915,
+          "word_acc_ignore_case": 0.5501559281588942,
+          "word_acc_ignore_case_symbol": 0.6164107371786122
+        },
+        "non_handwritten": {
+          "word_acc": 0.5443199924363764,
+          "word_acc_ignore_case": 0.7012079880850114,
+          "word_acc_ignore_case_symbol": 0.7721496831871058
+        },
+        "overall": {
+          "word_acc": 0.4727149610086915,
+          "word_acc_ignore_case": 0.6089461441334675,
+          "word_acc_ignore_case_symbol": 0.6746102944560884
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.40089190905485983,
+          "word_acc_ignore_case": 0.5424267662016726,
+          "word_acc_ignore_case_symbol": 0.6075351178655751
+        },
+        "non_handwritten": {
+          "word_acc": 0.537379625424292,
+          "word_acc_ignore_case": 0.6856458829474366,
+          "word_acc_ignore_case_symbol": 0.752511868755717
+        },
+        "overall": {
+          "word_acc": 0.4669986313228597,
+          "word_acc_ignore_case": 0.6005250114898185,
+          "word_acc_ignore_case_symbol": 0.6644795599816402
+        }
+      },
+      "mode": "zeroshot",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.0968944099378882,
+          "word_acc_ignore_case": 0.12467218771566596,
+          "word_acc_ignore_case_symbol": 0.23578329882677707
+        },
+        "non_handwritten": {
+          "word_acc": 0.2722781847781848,
+          "word_acc_ignore_case": 0.2847781847781848,
+          "word_acc_ignore_case_symbol": 0.2847781847781848
+        },
+        "overall": {
+          "word_acc": 0.1789799141507216,
+          "word_acc_ignore_case": 0.20219419986500733,
+          "word_acc_ignore_case_symbol": 0.27362277129357876
+        }
+      }
+    }
+  },
+  "robustscanner_resnet31_5e_st-sub_mj-sub_sa_real": {
+    "finetune": {
+      "deployment": {
+        "channels": 3,
+        "fps": 794.76,
+        "input_h": 48,
+        "input_w": 160,
+        "latency_ms": 1.26,
+        "mem_mb": 1211.7
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.5519017006817342,
+          "word_acc_ignore_case": 0.5881964043850664,
+          "word_acc_ignore_case_symbol": 0.6359863398327512
+        },
+        "non_handwritten": {
+          "word_acc": 0.7608413604843394,
+          "word_acc_ignore_case": 0.7645515166335198,
+          "word_acc_ignore_case_symbol": 0.8118499740999743
+        },
+        "overall": {
+          "word_acc": 0.620550819476675,
+          "word_acc_ignore_case": 0.6466347357181123,
+          "word_acc_ignore_case_symbol": 0.6934415591504096
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.5445447290048657,
+          "word_acc_ignore_case": 0.5835670200814546,
+          "word_acc_ignore_case_symbol": 0.6313930290673482
+        },
+        "non_handwritten": {
+          "word_acc": 0.7195104697617696,
+          "word_acc_ignore_case": 0.7221479157823829,
+          "word_acc_ignore_case_symbol": 0.7671392354781204
+        },
+        "overall": {
+          "word_acc": 0.6117705221058864,
+          "word_acc_ignore_case": 0.6399325358516743,
+          "word_acc_ignore_case_symbol": 0.6864613957631822
+        }
+      },
+      "mode": "finetune",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.26033471359558313,
+          "word_acc_ignore_case": 0.3714458247066943,
+          "word_acc_ignore_case_symbol": 0.3952553485162181
+        },
+        "non_handwritten": {
+          "word_acc": 0.13397435897435897,
+          "word_acc_ignore_case": 0.13397435897435897,
+          "word_acc_ignore_case_symbol": 0.13397435897435897
+        },
+        "overall": {
+          "word_acc": 0.22477561258617157,
+          "word_acc_ignore_case": 0.296204184014743,
+          "word_acc_ignore_case_symbol": 0.31151030646372263
+        }
+      }
+    },
+    "zeroshot": {
+      "deployment": {
+        "channels": 3,
+        "fps": 788.94,
+        "input_h": 48,
+        "input_w": 160,
+        "latency_ms": 1.27,
+        "mem_mb": 1211.7
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.391086478965739,
+          "word_acc_ignore_case": 0.5345596772550257,
+          "word_acc_ignore_case_symbol": 0.5973783376150317
+        },
+        "non_handwritten": {
+          "word_acc": 0.5774828084935802,
+          "word_acc_ignore_case": 0.7049408796404943,
+          "word_acc_ignore_case_symbol": 0.7609633449924235
+        },
+        "overall": {
+          "word_acc": 0.4612724871909369,
+          "word_acc_ignore_case": 0.6028339406698449,
+          "word_acc_ignore_case_symbol": 0.6627136058136228
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.38630203851775485,
+          "word_acc_ignore_case": 0.5270046609301537,
+          "word_acc_ignore_case_symbol": 0.5897613027310111
+        },
+        "non_handwritten": {
+          "word_acc": 0.5662207782853089,
+          "word_acc_ignore_case": 0.6853713376491322,
+          "word_acc_ignore_case_symbol": 0.7389368559172222
+        },
+        "overall": {
+          "word_acc": 0.4562066303987535,
+          "word_acc_ignore_case": 0.5943401160916263,
+          "word_acc_ignore_case_symbol": 0.6536794724484603
+        }
+      },
+      "mode": "zeroshot",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.10721187025534851,
+          "word_acc_ignore_case": 0.23902691511387164,
+          "word_acc_ignore_case_symbol": 0.23902691511387164
+        },
+        "non_handwritten": {
+          "word_acc": 0.2901912901912902,
+          "word_acc_ignore_case": 0.314000814000814,
+          "word_acc_ignore_case_symbol": 0.32682132682132686
+        },
+        "overall": {
+          "word_acc": 0.19328961238899126,
+          "word_acc_ignore_case": 0.2882319371449806,
+          "word_acc_ignore_case_symbol": 0.29372644263948605
+        }
+      }
+    }
+  },
+  "sar_resnet31_parallel-decoder_5e_st-sub_mj-sub_sa_real": {
+    "finetune": {
+      "deployment": {
+        "fps": 117.77,
+        "gflops": 4661.465,
+        "input_h": 48,
+        "input_w": 160,
+        "latency_ms": 8.49,
+        "mem_mb": 4344.5,
+        "params": 57.41
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.5941530110855785,
+          "word_acc_ignore_case": 0.6243045679196159,
+          "word_acc_ignore_case_symbol": 0.6651392979990502
+        },
+        "non_handwritten": {
+          "word_acc": 0.7658846191071802,
+          "word_acc_ignore_case": 0.7686914328896038,
+          "word_acc_ignore_case_symbol": 0.826743529549866
+        },
+        "overall": {
+          "word_acc": 0.6537889085959556,
+          "word_acc_ignore_case": 0.6753220236113772,
+          "word_acc_ignore_case_symbol": 0.7190604328725639
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.5857151020344222,
+          "word_acc_ignore_case": 0.615849451666213,
+          "word_acc_ignore_case_symbol": 0.6567581469392644
+        },
+        "non_handwritten": {
+          "word_acc": 0.7328935943706609,
+          "word_acc_ignore_case": 0.7353501325414848,
+          "word_acc_ignore_case_symbol": 0.7909410492737059
+        },
+        "overall": {
+          "word_acc": 0.6445991593297742,
+          "word_acc_ignore_case": 0.6659589072631918,
+          "word_acc_ignore_case_symbol": 0.7094169666764739
+        }
+      },
+      "mode": "finetune",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.08235852311939268,
+          "word_acc_ignore_case": 0.08235852311939268,
+          "word_acc_ignore_case_symbol": 0.09029503105590062
+        },
+        "non_handwritten": {
+          "word_acc": 0.3643162393162393,
+          "word_acc_ignore_case": 0.3643162393162393,
+          "word_acc_ignore_case_symbol": 0.3643162393162393
+        },
+        "overall": {
+          "word_acc": 0.19708912856328203,
+          "word_acc_ignore_case": 0.19708912856328203,
+          "word_acc_ignore_case_symbol": 0.20219116937960857
+        }
+      }
+    },
+    "zeroshot": {
+      "deployment": {
+        "fps": 118.17,
+        "gflops": 4661.465,
+        "input_h": 48,
+        "input_w": 160,
+        "latency_ms": 8.46,
+        "mem_mb": 4344.5,
+        "params": 57.41
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.4206715606806489,
+          "word_acc_ignore_case": 0.5391468071546185,
+          "word_acc_ignore_case_symbol": 0.5961356564735389
+        },
+        "non_handwritten": {
+          "word_acc": 0.6119678063350764,
+          "word_acc_ignore_case": 0.7372028728327356,
+          "word_acc_ignore_case_symbol": 0.790582941710544
+        },
+        "overall": {
+          "word_acc": 0.49545379541488066,
+          "word_acc_ignore_case": 0.6077363884181902,
+          "word_acc_ignore_case_symbol": 0.6625172266238513
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.4138374130524517,
+          "word_acc_ignore_case": 0.5316834866722602,
+          "word_acc_ignore_case_symbol": 0.5877414644653196
+        },
+        "non_handwritten": {
+          "word_acc": 0.5983319602742487,
+          "word_acc_ignore_case": 0.715296783006486,
+          "word_acc_ignore_case_symbol": 0.7657619069336891
+        },
+        "overall": {
+          "word_acc": 0.4891059588260146,
+          "word_acc_ignore_case": 0.5994216490013589,
+          "word_acc_ignore_case_symbol": 0.6528751700828057
+        }
+      },
+      "mode": "zeroshot",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.07639751552795031,
+          "word_acc_ignore_case": 0.2010006901311249,
+          "word_acc_ignore_case_symbol": 0.2010006901311249
+        },
+        "non_handwritten": {
+          "word_acc": 0.3162393162393162,
+          "word_acc_ignore_case": 0.3162393162393162,
+          "word_acc_ignore_case_symbol": 0.3162393162393162
+        },
+        "overall": {
+          "word_acc": 0.18464382408481786,
+          "word_acc_ignore_case": 0.2647458649011444,
+          "word_acc_ignore_case_symbol": 0.2647458649011444
+        }
+      }
+    }
+  },
+  "sar_resnet31_sequential-decoder_5e_st-sub_mj-sub_sa_real": {
+    "finetune": {
+      "deployment": {
+        "fps": 440.21,
+        "gflops": 4116.122,
+        "input_h": 48,
+        "input_w": 160,
+        "latency_ms": 2.27,
+        "mem_mb": 1250.7,
+        "params": 57.41
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.5874346937842888,
+          "word_acc_ignore_case": 0.6290324504674013,
+          "word_acc_ignore_case_symbol": 0.6795952264720364
+        },
+        "non_handwritten": {
+          "word_acc": 0.7753514573198811,
+          "word_acc_ignore_case": 0.7801333646627641,
+          "word_acc_ignore_case_symbol": 0.8316094565706248
+        },
+        "overall": {
+          "word_acc": 0.6567470038307264,
+          "word_acc_ignore_case": 0.6859908495323789,
+          "word_acc_ignore_case_symbol": 0.7334663594472101
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.5797198552433658,
+          "word_acc_ignore_case": 0.6198920429710424,
+          "word_acc_ignore_case_symbol": 0.6695172933091526
+        },
+        "non_handwritten": {
+          "word_acc": 0.7316287786213629,
+          "word_acc_ignore_case": 0.7358716609594832,
+          "word_acc_ignore_case_symbol": 0.7849751172701425
+        },
+        "overall": {
+          "word_acc": 0.6463755278752371,
+          "word_acc_ignore_case": 0.674742947973152,
+          "word_acc_ignore_case_symbol": 0.7210621749545005
+        }
+      },
+      "mode": "finetune",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.11647688060731538,
+          "word_acc_ignore_case": 0.11647688060731538,
+          "word_acc_ignore_case_symbol": 0.11647688060731538
+        },
+        "non_handwritten": {
+          "word_acc": 0.12147435897435897,
+          "word_acc_ignore_case": 0.12147435897435897,
+          "word_acc_ignore_case_symbol": 0.12147435897435897
+        },
+        "overall": {
+          "word_acc": 0.1269384342365709,
+          "word_acc_ignore_case": 0.1269384342365709,
+          "word_acc_ignore_case_symbol": 0.1269384342365709
+        }
+      }
+    },
+    "zeroshot": {
+      "deployment": {
+        "fps": 438.12,
+        "gflops": 4116.122,
+        "input_h": 48,
+        "input_w": 160,
+        "latency_ms": 2.28,
+        "mem_mb": 1250.7,
+        "params": 57.41
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.3981252187766591,
+          "word_acc_ignore_case": 0.5281220111336352,
+          "word_acc_ignore_case_symbol": 0.591883654948061
+        },
+        "non_handwritten": {
+          "word_acc": 0.5828655216930666,
+          "word_acc_ignore_case": 0.7027420550107802,
+          "word_acc_ignore_case_symbol": 0.7604369786585699
+        },
+        "overall": {
+          "word_acc": 0.47377563036171605,
+          "word_acc_ignore_case": 0.5994111156020627,
+          "word_acc_ignore_case_symbol": 0.6560479437680464
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.3939351833135607,
+          "word_acc_ignore_case": 0.523154777180996,
+          "word_acc_ignore_case_symbol": 0.5860371978197498
+        },
+        "non_handwritten": {
+          "word_acc": 0.5584673223008254,
+          "word_acc_ignore_case": 0.6713969496350661,
+          "word_acc_ignore_case_symbol": 0.7237770155643585
+        },
+        "overall": {
+          "word_acc": 0.4681197529791232,
+          "word_acc_ignore_case": 0.5918296063226737,
+          "word_acc_ignore_case_symbol": 0.6471211472926703
+        }
+      },
+      "mode": "zeroshot",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.1302967563837129,
+          "word_acc_ignore_case": 0.15966183574879228,
+          "word_acc_ignore_case_symbol": 0.1675983436853002
+        },
+        "non_handwritten": {
+          "word_acc": 0.09615384615384615,
+          "word_acc_ignore_case": 0.1437728937728938,
+          "word_acc_ignore_case_symbol": 0.1437728937728938
+        },
+        "overall": {
+          "word_acc": 0.12497099174117808,
+          "word_acc_ignore_case": 0.16425670602689238,
+          "word_acc_ignore_case_symbol": 0.16935874684321892
+        }
+      }
+    }
+  },
+  "svtr-base_20e_st_mj": {
+    "finetune": {
+      "deployment": {
+        "fps": 1192.51,
+        "gflops": 459.841,
+        "input_h": 64,
+        "input_w": 256,
+        "latency_ms": 0.84,
+        "mem_mb": 1273.7,
+        "params": 24.524
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.12381657736542186,
+          "word_acc_ignore_case": 0.49146063860260814,
+          "word_acc_ignore_case_symbol": 0.5370431854906192
+        },
+        "non_handwritten": {
+          "word_acc": 0.12412728915167938,
+          "word_acc_ignore_case": 0.5802690912927001,
+          "word_acc_ignore_case_symbol": 0.6365156378569616
+        },
+        "overall": {
+          "word_acc": 0.12809851500983307,
+          "word_acc_ignore_case": 0.5302403536663979,
+          "word_acc_ignore_case_symbol": 0.5760052682858953
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.12354792240344632,
+          "word_acc_ignore_case": 0.4852475481746962,
+          "word_acc_ignore_case_symbol": 0.531121268489957
+        },
+        "non_handwritten": {
+          "word_acc": 0.12059086604571004,
+          "word_acc_ignore_case": 0.5604486150958456,
+          "word_acc_ignore_case_symbol": 0.6117273861559742
+        },
+        "overall": {
+          "word_acc": 0.1272444434671783,
+          "word_acc_ignore_case": 0.5236340167908176,
+          "word_acc_ignore_case_symbol": 0.5687813152441683
+        }
+      },
+      "mode": "finetune",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.016666666666666666,
+          "word_acc_ignore_case": 0.08657694962042789,
+          "word_acc_ignore_case_symbol": 0.10046583850931677
+        },
+        "non_handwritten": {
+          "word_acc": 0.0,
+          "word_acc_ignore_case": 0.15833333333333333,
+          "word_acc_ignore_case_symbol": 0.15833333333333333
+        },
+        "overall": {
+          "word_acc": 0.010714285714285714,
+          "word_acc_ignore_case": 0.12351375332741792,
+          "word_acc_ignore_case_symbol": 0.12812204825829349
+        }
+      }
+    },
+    "zeroshot": {
+      "deployment": {
+        "fps": 1192.11,
+        "gflops": 459.841,
+        "input_h": 64,
+        "input_w": 256,
+        "latency_ms": 0.84,
+        "mem_mb": 1273.7,
+        "params": 24.524
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.11612225131402372,
+          "word_acc_ignore_case": 0.4851869730741064,
+          "word_acc_ignore_case_symbol": 0.5107037508817379
+        },
+        "non_handwritten": {
+          "word_acc": 0.1314693860791422,
+          "word_acc_ignore_case": 0.5642933242988358,
+          "word_acc_ignore_case_symbol": 0.5982314851893324
+        },
+        "overall": {
+          "word_acc": 0.13154145981428772,
+          "word_acc_ignore_case": 0.5304688098734257,
+          "word_acc_ignore_case_symbol": 0.5568122039713029
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.11568032174707278,
+          "word_acc_ignore_case": 0.4791507625365619,
+          "word_acc_ignore_case_symbol": 0.5046675403441934
+        },
+        "non_handwritten": {
+          "word_acc": 0.1280122757799277,
+          "word_acc_ignore_case": 0.5450960102764775,
+          "word_acc_ignore_case_symbol": 0.5766740914985055
+        },
+        "overall": {
+          "word_acc": 0.1309210701161306,
+          "word_acc_ignore_case": 0.523394719105163,
+          "word_acc_ignore_case_symbol": 0.549553943365407
+        }
+      },
+      "mode": "zeroshot",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.016666666666666666,
+          "word_acc_ignore_case": 0.12084195997239473,
+          "word_acc_ignore_case_symbol": 0.12084195997239473
+        },
+        "non_handwritten": {
+          "word_acc": 0.08333333333333333,
+          "word_acc_ignore_case": 0.2328042328042328,
+          "word_acc_ignore_case_symbol": 0.2328042328042328
+        },
+        "overall": {
+          "word_acc": 0.04642857142857143,
+          "word_acc_ignore_case": 0.17745735975549642,
+          "word_acc_ignore_case_symbol": 0.17745735975549642
+        }
+      }
+    }
+  },
+  "svtr-small_20e_st_mj": {
+    "finetune": {
+      "deployment": {
+        "fps": 4668.14,
+        "gflops": 84.013,
+        "input_h": 64,
+        "input_w": 256,
+        "latency_ms": 0.21,
+        "mem_mb": 254.3,
+        "params": 10.307
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.14829016879559878,
+          "word_acc_ignore_case": 0.5497779791841716,
+          "word_acc_ignore_case_symbol": 0.5663115966502644
+        },
+        "non_handwritten": {
+          "word_acc": 0.15328622585041068,
+          "word_acc_ignore_case": 0.6185063406154618,
+          "word_acc_ignore_case_symbol": 0.6572983541476664
+        },
+        "overall": {
+          "word_acc": 0.15350103172719393,
+          "word_acc_ignore_case": 0.5834491138826059,
+          "word_acc_ignore_case_symbol": 0.6024043960508925
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.1477194428695897,
+          "word_acc_ignore_case": 0.5432804947509059,
+          "word_acc_ignore_case_symbol": 0.5599528623557489
+        },
+        "non_handwritten": {
+          "word_acc": 0.15140541484508105,
+          "word_acc_ignore_case": 0.5981878756317991,
+          "word_acc_ignore_case_symbol": 0.6352078193028814
+        },
+        "overall": {
+          "word_acc": 0.15304528387502478,
+          "word_acc_ignore_case": 0.5763387300755581,
+          "word_acc_ignore_case_symbol": 0.5951975755079942
+        }
+      },
+      "mode": "finetune",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.016666666666666666,
+          "word_acc_ignore_case": 0.11640786749482403,
+          "word_acc_ignore_case_symbol": 0.23545548654244305
+        },
+        "non_handwritten": {
+          "word_acc": 0.125,
+          "word_acc_ignore_case": 0.20714285714285716,
+          "word_acc_ignore_case_symbol": 0.20714285714285716
+        },
+        "overall": {
+          "word_acc": 0.056912442396313365,
+          "word_acc_ignore_case": 0.15623586741849613,
+          "word_acc_ignore_case_symbol": 0.2327664796633941
+        }
+      }
+    },
+    "zeroshot": {
+      "deployment": {
+        "fps": 4643.38,
+        "gflops": 84.013,
+        "input_h": 64,
+        "input_w": 256,
+        "latency_ms": 0.22,
+        "mem_mb": 254.3,
+        "params": 10.307
+      },
+      "exclude_occluded": {
+        "handwritten": {
+          "word_acc": 0.12015458795059315,
+          "word_acc_ignore_case": 0.4998880697206356,
+          "word_acc_ignore_case_symbol": 0.5236478364323564
+        },
+        "non_handwritten": {
+          "word_acc": 0.13135184598599237,
+          "word_acc_ignore_case": 0.5747250151434375,
+          "word_acc_ignore_case_symbol": 0.6095571554315694
+        },
+        "overall": {
+          "word_acc": 0.13570050295427283,
+          "word_acc_ignore_case": 0.5445493781888534,
+          "word_acc_ignore_case_symbol": 0.5697483570173209
+        }
+      },
+      "include_occluded": {
+        "handwritten": {
+          "word_acc": 0.11967651877561085,
+          "word_acc_ignore_case": 0.49393622585561836,
+          "word_acc_ignore_case_symbol": 0.517695992567339
+        },
+        "non_handwritten": {
+          "word_acc": 0.12789753426042427,
+          "word_acc_ignore_case": 0.5614074454433732,
+          "word_acc_ignore_case_symbol": 0.59583667888917
+        },
+        "overall": {
+          "word_acc": 0.13507876296826163,
+          "word_acc_ignore_case": 0.5380465234451933,
+          "word_acc_ignore_case_symbol": 0.5631546815420359
+        }
+      },
+      "mode": "zeroshot",
+      "only_occluded": {
+        "handwritten": {
+          "word_acc": 0.016666666666666666,
+          "word_acc_ignore_case": 0.1263975155279503,
+          "word_acc_ignore_case_symbol": 0.1263975155279503
+        },
+        "non_handwritten": {
+          "word_acc": 0.08333333333333333,
+          "word_acc_ignore_case": 0.3115079365079365,
+          "word_acc_ignore_case_symbol": 0.32432844932844934
+        },
+        "overall": {
+          "word_acc": 0.04642857142857143,
+          "word_acc_ignore_case": 0.2147589470570837,
+          "word_acc_ignore_case_symbol": 0.2202534525515892
+        }
+      }
+    }
+  }
+}
